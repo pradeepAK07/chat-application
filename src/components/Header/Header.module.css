@@ -1,0 +1,62 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+  padding: 25px 100px;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(9 86 157);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.logoContainer {
+  width: 300px;
+  color: rgb(255, 255, 255);
+}
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.userName {
+  font-weight: 600;
+  color: #1266d4;
+  padding: 3px 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.menuContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 55px;
+  width: calc(100% - 300px);
+}
+
+.profile {
+  font-size: 30px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.profileBlock {
+  position: relative;
+}
+.profileWrap {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  top: 33px;
+  z-index: 100;
+}
+
+.profileWrap.open {
+  max-height: 1000px;
+  opacity: 1;
+}

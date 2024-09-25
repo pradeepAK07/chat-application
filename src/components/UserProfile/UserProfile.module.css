@@ -1,0 +1,30 @@
+.UserProfileContainer {
+  position: absolute;
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(53, 104, 175);
+  border-radius: 5px;
+  right: 0px;
+  top: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.userName,
+.menus {
+  white-space: nowrap;
+  padding: 5px 10px;
+  background-color: rgba(156, 179, 201, 0.2);
+  border-radius: 5px;
+  color: rgb(237, 247, 255);
+  font-weight: 500;
+  font-size: 17px;
+}
+.userName {
+  background-color: rgb(31, 205, 69, 0.7);
+  cursor: pointer;
+}
+
+.menus:hover {
+  cursor: pointer;
+}

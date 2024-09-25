@@ -1,0 +1,9 @@
+.footerContainer {
+  width: 100%;
+  padding: 20px 100px;
+  background-color: rgb(249 247 251);
+}
+
+.footerContent {
+  text-align: center;
+}
